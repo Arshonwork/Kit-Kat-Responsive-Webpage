@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu",sans-serif;
+
+}
+.main{
+    position: relative;
+    min-height: 100vh;
+    background: radial-gradient(#f0483a,#d10a20);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 100px;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+.logo{
+    max-width: 90px;
+}
+.navigation
+{
+    display: flex;
+}
+.navigation
+{
+    list-style: none;
+}
+.navigation li a{
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 40px;
+}
+.content
+{
+    position: relative;
+    margin-top: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content .text{
+    width: 100%;
+    max-width: 600px;
+}
+.content .text h2{
+    color: #fff;
+    font-size: 5em;
+    font-weight: 300;
+}
+.content .text h2 span{
+    font-weight: 700;
+}
+.content .text p{
+    color: #fff;
+    font-weight:400 ;
+    font-size: 1.1em;
+    line-height: 1.5em;
+    margin: 20px 0;
+
+
+}
+.btn{
+    position: relative;
+    display: inline-block;
+    padding: 20px 50px;
+    background: #fff;
+    color: #333;
+    font-size: 1.1em;
+    font-weight: 500;
+    border-radius: 40px;
+    text-decoration: none;
+    transition: 0.25s;
+}
+.btn:hover
+{
+    letter-spacing: 2px;
+}
+.slider{
+    position: relative;
+}
+.slider .slides{
+    display: none;
+}
+.slider .slides.active{
+    display: block;
+
+}
+.slider .slides img
+{
+    width: 100%;
+    max-width: 600px;
+
+}
+
+
+.portfolio {
+    padding: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .portfolio-box-text img
+  {
+      width: 200px;
+      height: 190px;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .portfolio-box-text span
+  {
+      color: #fff;
+      position: relative;
+      font-size: 2rem;
+  }
+  .portfolio .content {
+    margin: 50px;
+  }
+  
+  .content h2 {
+    font-size: 3rem;
+    letter-spacing: 3px;
+    color: rgb(75, 67, 67);
+  }
+  
+  .content p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    line-height: 1.4;
+    letter-spacing: 1px;
+    color: #000;
+  }
+  
+  .portfolio-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: rows;
+  }
+ 
+  
+  .portfolio-box .portfolio-box-list {
+    margin: 5px;
+    width: 320px;
+    height: 400px;
+    background: #d10a20;
+    margin-top: 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.team {
+  padding: 100px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.team .content {
+  margin: 0 100px;
+}
+
+.team-list {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.team-list img {
+  width: 230px;
+  padding: 20px;
+  position: relative;
+  left: 0;
+  margin: 20px;
+  width: 320px;
+  height: 400px;
+  background: #E6E6FA;
+  margin-top: 40px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+.team-list .btncolor
+{
+    position: relative;
+    display: inline-block;
+    padding: 20px 50px;
+    background: lightblue;
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: 500;
+    border-radius: 40px;
+    text-decoration: none;
+    transition: 0.25s;
+}
+.video
+{
+padding: 100px;
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+font-size: 2rem;
+color: #333;
+}
+.video h2
+{
+    margin: 0 100px;
+}
+.logo-kit img
+{
+    border-radius: 50%;
+}
